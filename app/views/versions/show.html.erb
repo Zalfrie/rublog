@@ -1,0 +1,9 @@
+<h1>Edit History</h1>
+
+<ul>
+  <% @auditss.each do |audit| %>
+    <li>
+      <%= audit.audited_changes %>
+    </li>
+  <% end %>
+</ul>

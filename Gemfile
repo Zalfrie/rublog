@@ -12,6 +12,15 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
+# use acts_as_paranoid
+# ActsAsParanoid/acts_as_paranoid: ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
+# https://github.com/ActsAsParanoid/acts_as_paranoid
+gem 'acts_as_paranoid', '0.8.0'
+
+# use audited
+#
+gem "audited", "~> 5.0"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 

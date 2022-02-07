@@ -1,0 +1,9 @@
+<h1>Versions#index</h1>
+
+<ul>
+  <% @audits.each do |audit| %>
+    <li>
+      <%= audit.audited_changes %>
+    </li>
+  <% end %>
+</ul>
