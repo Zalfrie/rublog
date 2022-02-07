@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.1"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "pg"
 
 # use acts_as_paranoid
 # ActsAsParanoid/acts_as_paranoid: ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
